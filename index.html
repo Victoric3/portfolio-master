@@ -1,0 +1,111 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./portfolio.css">
+</head>
+<body>
+    <div class="body"> 
+        <!-- the Nav bar -->
+        <header id="nav-bar" >
+        <div class="nav-bar">
+        <li><img src="./src/my-logo.png" alt="my logo" class="logo"></li>
+        <li class="space"></li>
+        <li><a href="#about" class="links">about me</a></li>
+        <li><a href="#resume-container" class="links">resume</a></li>
+        <li><a href="#my-skills" class="links">my skills</a></li>
+        <li><a href="#projects" class="links">recent projects</a></li>
+        <li><a href="#contact" class="links">contact</a></li>
+        <i class="fa fa-bars bar-icon"></i>
+    </div>
+    </header>
+        <div class="page-content">
+            <h1>about me</h1>
+            <!-- the about page -->
+            <div id="about" >
+                <img src="./src/my-picture.jpg" alt="my picture" class="me">
+                <p><span class="greeting">Hello, I'm <br>Chukwujiobi Victor.</span> <br>
+                    As a full-stack developer, I enjoy creating amazing websites that seamlessly come to life! 
+                    Coding, to me, is like crafting a digital masterpiece. 
+                    Developing both the front and back ends allows me to bring complete and functional projects to reality.
+                </p>
+                
+        </div>
+        <!-- the resume page -->
+        <div id="resume-container" >
+            <img src="./src/myresume.jpg" alt="my resume" class="resume">
+
+        </div>
+        <!-- my skills container page -->
+        <div id="my-skills">
+            <img src="./src/css-html-logo.jpg" alt="css and Html logo" class="skill css-html-logo">
+            <img src="./src/js-logo.jpg" alt="javascript logo" class="skill js">
+            <img src="./src/content-creation-logo.jpg" alt="React-logo" class="skill React-logo">
+            <img src="./src/mongodb.jpg" alt="React-logo" class="skill React-logo">
+            <img src="./src/express.jpg" alt="React-logo" class="skill React-logo">
+            <img src="./src/React-logo.png" alt="React-logo" class="skill React-logo">
+            <img src="./src/NodeJS.jpg" alt="React-logo" class="skill React-logo">
+        </div>
+
+        <!-- projects page-->
+        <div style="display: flex; justify-content: center; margin-top: 50px; width: 100%;">
+            <p class="project-title">Some of my most recent projects are:</p>
+        </div>
+        <div class="table-container">
+        <table id="projects">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Project Name</th>
+                    <th>Description</th>
+                    <th>Source Code</th>
+                    <th>Live Demo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="./src/kingsheart.PNG" alt="kingsheart"></td>
+                    <td><p>kingsheart</p></td>
+                    <td><p>Learning Management system</p></td>
+                    <td><a class="kingsheart-code" style="cursor: pointer;">Code</a></td>
+                    <td><a href="https://kingsheart.com.ng" target="_blank">kingsheart.com.ng</a></td>
+                </tr>
+                <tr>
+                    <td><img src="./src/alphamagnet.PNG" alt="AlphaMagnet"></td>
+                    <td><p>AlphaMagnet</p></td>
+                    <td><p>Ecommerce Site</p></td>
+                    <td><a class="alphamagnet-code" style="cursor: pointer;">Code</a></td>
+                    <td><a href="https://alphamagnet3.onrender.com" target="_blank">Demo</a></td>
+                </tr>
+                <tr>
+                    <td><img src="./src/bankist.PNG" alt="Bankist App"></td>
+                    <td><p>Bankist App</p></td>
+                    <td><p>Imaginery wallet</p></td>
+                    <td><a href="https://github.com/Victoric3/Bankist-master" target="_blank">Code</a></td>
+                    <td><a href="https://bankist-app-victoric.netlify.app/" target="_blank">Demo</a></td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        <!-- contacts page-->
+        <div id="contact" >
+           <a href="https://www.instagram.com/veuxtech/#" target="_blank"><i class="fa fa-instagram" ></i></a>
+           <a href="https://wa.link/0k4tjj" target="_blank"><i class="fa fa-whatsapp" ></i></a>
+            <a href="https://web.facebook.com/people/Victor-Chukwujiobi/pfbid02M4GMPme71jfbftCUmwsBw31WBEqxfy5WXRreuu1szBUG7FVYPeBwL1nGCJaRWFMjl/" target="_blank"><i class="fa fa-facebook" ></i></a>
+            <a href="tel:+2349139163346" target="_blank"><i class="fa fa-phone" ></i></a>
+            <a href="https://ng.linkedin.com/in/victor-chukwujiobi-3a577a281" target="_blank"><i class="fa fa-linkedin" ></i></a>
+            <a href="mailto:chukwujiobivictor@gmail.com" target="_blank"><i class="fa fa-google" ></i></a>
+        </div>
+        <footer class="footer">
+            <p id="copyright"></p>
+        </footer>
+    </div>
+    
+</body>
+<script src="./portfolio.js"></script>
+</html>
